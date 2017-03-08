@@ -1,0 +1,12 @@
+1|DirtyCOW AddUser|Ubuntu <4.4/<3.13; Debian <4.7.8|default: evait:kill|gcc -pthread exploit.c -o exploit -lcrypt -w
+2|DirtyCOW Pokeball|Linux Kernel 2.6.22 < 3.9| |gcc -pthread exploit.c -o exploit -w
+3|Mempodipper|Linux 2.6.39<3.2.2 Gentoo/Debian| |gcc exploit.c -o exploit -w
+4|Full Nelson|Linux 2.6.31<2.6.37 RedHat/Debiab| |gcc exploit.c -o exploit -w
+5|Half Nelson|Linux Kernel 2.6.0<2.6.36.2| |gcc exploit.c -o exploit -lrt -w
+6|Clown NewUser|Linux 3.0<3.3.5|cc -Wall newuser.c -static -o exploit| cc -Wall exploit.c -static -o exploit -w
+7|fasync_helper|Linux Kernel <2.6.28|gcc exploit.c -o exploit
+8|overlayfs|Linux 3.13.0<3.19| |gcc exploit.c -o exploit -w
+9|pipe.c root(kit?)|Kernel 2.6.x (32 Bit only!)| |gcc exploit.c -o exploit -w
+10|PERF_EVENTS|Kernel 2.6.32-3.8.10| |gcc exploit.c -o exploit -w
+11|CAN BCM Exploit|Kernel <2.6.36| |gcc exploit.c -o exploit -w
+12|Cups local Exploit|Cups <1.1.17|Usage: exploit -t 127.0.0.1|gcc exploit.c -o exploit -w
