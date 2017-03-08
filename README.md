@@ -1,5 +1,5 @@
 # click_n_root - Linux Local Root Exploiter  
-This is a small script to make the local exploitation process easier. It downloads the precompiled exploit for x86 and x64 architectures and can also automatic compile local on the victim system
+This is a small script to make the local exploitation process easier. It downloads the precompiled exploit for x86 and x64 architectures and can also automatic compile local on the target system
 
 ## Exploit-List:
 
