@@ -19,7 +19,7 @@ This is a small script to make the local exploitation process easier. It downloa
 ## How to use it:
 
 1. Download from git
-2. Start easy Webserver with "python server.py"
+2. Start easy Webserver with "sudo ./server.py"
   1. Now a Webserver is open on your local ip on port 80, serving all files given in the clickNroot folder.  
 3. Upload the click_n_root.sh -Script to the target linux machine
 4. Give executable rights to the click_n_root -Script (chmod 755 KlickAndRoot.sh)
